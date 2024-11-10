@@ -1,0 +1,41 @@
+
+div{
+    background-image: url("https://ichef.bbc.co.uk/wwhp/999/cpsprodpb/125E8/production/_131104257_resize.jpg");
+    background-size: cover;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+.p1{
+    font-size: 50px;
+    color: white;
+    font-style: inherit;
+    padding-left: 15px;
+}
+.p2{
+    font-size: 50px;
+    color: white;
+    margin-top: -50px;
+    padding-left: 15px;
+}
+.p3{
+    font-size: 25px;
+    color: white;
+    margin-top: -30px;
+    padding-left: 15px;
+}
+.p4{
+    font-size: 25px;
+    color: white;
+    margin-top: -30px;
+    padding-left: 15px;
+}
+h2{
+    color: red;
+    padding-left: 15px;
+}
+#africa{
+    color: white;
+    
+}
+
+  
