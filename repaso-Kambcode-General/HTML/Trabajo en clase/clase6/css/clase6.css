@@ -1,0 +1,64 @@
+body{
+    background-color: goldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 15px;
+    border: 5px solid black;
+}
+.contenedorParrafo{
+    background-color: rgb(241, 248, 222);
+    color: black;
+    text-align: center;
+    padding: 15px;
+    border: 5px solid black;
+    margin: 30px;
+}
+.parrafo{
+    background-color: rgb(235, 238, 227);
+    color: black;
+    text-align: center;
+    padding: 30px;
+    border: 5px solid black;
+    margin: 30px;
+}
+
+
+.header h1{
+    background-color: rgb(235, 238, 227);
+    color: black;
+    text-align: center;
+    padding: 30px;
+    border: 5px solid black;
+    margin: 30px;
+}
+#cajaPadre{
+    background-color: grey;
+}
+.cajaHijo{
+    text-align: center;
+    width: 100%;
+}
+.colorCaja1{
+    background-color: red;
+}
+.colorCaja2{
+    background-color: green;
+}
+.colorCaja3{
+    background-color: yellow;
+}
+.colorCaja4{
+    background-color: blue;
+}
+.colorCaja5{
+    background-color: purple;
+}
+.titulo{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
