@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea_8</title>
+    <link rel="stylesheet" href="tarea8.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Galeria de Imagenes, Libros y Registro</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Galeria de Imagenes</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Galeria de Libros</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Registro</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Contacto</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <h2 class="tituloGaleria">Galeria de Imagenes</h2>
+        <div class="galeriaImagenes">
+            <div class="img">
+                <img src="./img/Flor Casera.jpg" alt="Flor Casera" width="250px" class="imgGaleria">
+                <h2>Flor Casera</h2>
+            </div>
+            <div class="img">
+                <img src="./img/Garcita.jpg" alt="Garcita" width="250px" class="imgGaleria">
+                <h2>Garcita</h2>
+            </div>
+            <div class="img">
+                <img src="./img/Serpiente.jpg" alt="Serpiente" width="250px" height="330px" class="imgGaleria">
+                <h2>Serpiente</h2>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h2 class="tituloGaleria">Galeria de Libros</h2>
+        <div class="galeriaLibros">
+            <div class="Libros">
+                <img src="./img/Libros/Cien años de soledad.jpg" alt="Cien años de soledad" width="250px" class="imgLibros">
+                <h2>Cien años de soledad</h2>
+                <h3>Gabriel García Márquez</h3>
+            </div>
+            <div class="Libros">
+                <img src="./img/Libros/El señor de los anillos.jpg" alt="El Señor de los Anillos" width="250px" class="imgLibros">
+                <h2>El Señor de los Anillos</h2>
+                <h3>J.R.R. Tolkien</h3>
+            </div>
+            <div class="Libros">
+                <img src="./img/Libros/Un mundo feliz.jpg" alt="Un mundo feliz" width="250px" height="405px" class="imgLibros">
+                <h2>Un mundo feliz</h2>
+                <h3>Aldous Huxley</h3>
+            </div>
+        </div>
+    </div>
+    <form class="formulario">
+        <h2 class="tituloGaleria">Registro</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña">
+        <label for="number">Edad:</label>
+        <input type="number" id="edad" name="edad">
+        <label for="pais">Pais:</label>
+        <select name="pais" id="pais">
+            <option Value="">Seleccione</option>
+            <option value="argentina">Argentina</option>
+            <option value="brasil">Brasil</option>
+            <option value="chile">Chile</option>
+            <option value="colombia">Colombia</option>
+        </select>
+        <h5>Selecciona tu Pais</h5>
+    </form>
+    <footer>
+        <img src="./img/icon.png" alt="icon" width="18px">
+        <h2>2024 Coffee Lovers</h2>
+    </footer>
+</body>
+</html>

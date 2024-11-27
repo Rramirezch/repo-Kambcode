@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .gallery,
+        .music-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .item {
+            text-align: center;
+        }
+
+        .item img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+
+        .music-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .music-item img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .music-item div {
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mi página web</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Galería de Películas</h2>
+            <div class="gallery">
+                <div class="item">
+                    <img src="pelicula1.png" alt="Película 1">
+                    <p>Película 1</p>
+                </div>
+                <div class="item">
+                    <img src="pelicula2.png" alt="Película 2">
+                    <p>Película 2</p>
+                </div>
+                <div class="item">
+                    <img src="pelicula3.png" alt="Película 3">
+                    <p>Película 3</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Lista de Reproducción de Música</h2>
+            <div class="music-list">
+                <div class="music-item">
+                    <img src="album1.png" alt="Álbum 1">
+                    <div>
+                        <p><strong>Canción 1</strong></p>
+                        <p>Artista 1</p>
+                    </div>
+                </div>
+                <div class="music-item">
+                    <img src="album2.png" alt="Álbum 2">
+                    <div>
+                        <p><strong>Canción 2</strong></p>
+                        <p>Artista 2</p>
+                    </div>
+                </div>
+                <div class="music-item">
+                    <img src="album3.png" alt="Álbum 3">
+                    <div>
+                        <p><strong>Canción 3</strong></p>
+                        <p>Artista 3</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

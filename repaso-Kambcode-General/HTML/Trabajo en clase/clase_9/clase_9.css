@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body{
+    background-color: #DADADA;
+    border: #5980ff solid 1px;
+    font-family: "DM Sans", sans-serif;
+}
+header{
+    margin: 20px 40px;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 1px blue ;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.sectionTitleHeader{
+    text-align: center;
+    margin: 5px;
+}
+.sectionParrafoHeader{
+    justify-content: center;
+    text-align: end;
+    font-size: 14px;
+    margin: 10px 15px;
+    color: slateblue;
+}
+nav ul li {
+    margin: 8px 16px;
+}
+header section{
+    text-align: center;
+    margin: 5px;
+}
+header section p {
+    text-align: end;
+    font-size: 14px;
+    margin: 15px;
+    color: slateblue;
+}
+a {
+    text-decoration: none;
+    background-color: #5980ff;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    text-decoration: none;
+    background-color: #99ff00;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+ main section {
+    text-align: center;
+    /*background-color: #5980ff;*/
+    padding: 40px 0px;
+    margin: 30px 10px;
+    border-radius: 10px;
+   
+}
+h2 {
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: "Roboto", sans-serif;;
+}
+
+.flexBooks {
+    display: flex;
+    flex-wrap: wrap;
+}
+main section h3 {
+    color: darkblue;
+    margin-top: 0px;
+}
+main section p {
+    text-align: end;
+    padding-right: 10px;
+}
+
+img {
+    width: 200px;
+    border: dotted white 3px;
+}
+main {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sectionLibroUno {
+    background-color: black;
+    border: dotted 10px rgb(179, 34, 34);   
+}
+.sectionLibroDos {
+    background-color: burlywood;
+    border: dotted 10px rgb(75, 52, 22);
+}
+.sectionLibroTres {
+    background-color: #925088;
+    border: dotted 10px black
+}
+.pUno{ 
+    color: aliceblue;
+}
+.spanUno {
+    color: aliceblue;
+}
+.sectionLibroUno h3 {
+    color: white;
+}

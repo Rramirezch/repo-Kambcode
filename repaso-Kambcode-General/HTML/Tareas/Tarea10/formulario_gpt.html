@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios de Ejemplo</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        main {
+            padding: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto 40px;
+            padding: 20px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        textarea {
+            resize: vertical;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .question p {
+            margin-bottom: 10px;
+        }
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+    <main>
+        <!-- Formulario de Contacto -->
+        <form action="#" method="post">
+            <h2>Formulario de Contacto</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+            
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" placeholder="Escribe tu correo electrónico" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+        <!-- Formulario de Preguntas -->
+        <form action="#" method="post">
+            <h2>Formulario de Preguntas sobre HTML y CSS</h2>
+            
+            <div class="question">
+                <p>1. ¿Cuál es la etiqueta HTML para crear un enlace?</p>
+                <div class="options">
+                    <label><input type="radio" name="pregunta1" value="a" required> a</label>
+                    <label><input type="radio" name="pregunta1" value="link"> link</label>
+                    <label><input type="radio" name="pregunta1" value="href"> href</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>2. ¿Cuál es la propiedad de CSS para cambiar el color de texto?</p>
+                <div class="options">
+                    <label><input type="radio" name="pregunta2" value="color" required> color</label>
+                    <label><input type="radio" name="pregunta2" value="text-color"> text-color</label>
+                    <label><input type="radio" name="pregunta2" value="font-color"> font-color</label>
+                </div>
+            </div>
+            
+            <div class="question">
+                <p>3. ¿Cuál es la propiedad de CSS para cambiar el tamaño de fuente?</p>
+                <div class="options">
+                    <label><input type="radio" name="pregunta3" value="font-size" required> font-size</label>
+                    <label><input type="radio" name="pregunta3" value="text-size"> text-size</label>
+                    <label><input type="radio" name="pregunta3" value="size"> size</label>
+                </div>
+            </div>
+            <button type="submit">Enviar respuestas</button>
+        </form>
+    </main>
+    <footer>
+       <p> &copy; 2024 Mi página web</p>
+    </footer>
+</body>
+</html>
